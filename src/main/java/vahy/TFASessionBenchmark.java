@@ -41,7 +41,8 @@ public class TFASessionBenchmark {
         org.openjdk.jmh.Main.main(args);
     }
 
-    private static final String PYTHON_PATH = System.getProperty("user.home") + "/.local/virtualenvs/tf_2_3/bin/python";
+//    private static final String PYTHON_PATH = System.getProperty("user.home") + "/.local/virtualenvs/tf_2_3/bin/python";
+    private static final String PYTHON_PATH = path_to_python_with_TF_here;
 
     private Session session;
 
